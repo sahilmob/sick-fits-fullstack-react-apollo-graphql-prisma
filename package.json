@@ -1,0 +1,16 @@
+{
+  "name": "sickfits",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "docker-compose up",
+    "build": "docker-compose build",
+    "stop": "docker-compose down",
+    "clean": "docker system prune -af",
+    "clean:volumes": "docker volume prune -f"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
